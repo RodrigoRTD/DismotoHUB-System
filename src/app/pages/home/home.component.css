@@ -1,0 +1,66 @@
+/* Estilos padrão para desktops e tablets */
+.logo {
+  background-color: #f8f9fa;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.233);
+  border-radius: 15%;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: translateY(-10px);
+}
+
+.navbar-brand {
+  margin: 0 20px;
+}
+
+.bordered-text {
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.233);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .navbar-brand {
+    margin: 10px 5px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-center h3 {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .bordered-text {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    width: 45%;
+    margin: 5px;
+  }
+
+  .logo {
+    max-width: 80px;
+  }
+
+  .text-center h3 {
+    font-size: 1rem;
+  }
+}
+.content-container {
+  margin-top: 100px; /* Ajuste o valor conforme necessário para afastar do topo */
+}
