@@ -1,3 +1,7 @@
+body {
+  background-color: #dddddd;
+}
+
 .navbar {
   background-color: #ca2b26;
 }
@@ -8,8 +12,8 @@
 }
 
 .navbar-toggler {
-  border-color: #ff0000;
-  border-left: 3px solid #e90000;
+  border-color: #000000;
+  border-left: 5px solid #e90000;
   outline: none;
 }
 
@@ -33,7 +37,7 @@
 }
 
 .navbar-nav .nav-link {
-  color: #333333;
+  color: #000000;
   transition: all 0.3s ease-in-out;
 }
 
